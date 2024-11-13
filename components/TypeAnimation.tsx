@@ -30,7 +30,7 @@ export function TypeAnimation() {
       }, 2000)
       return () => clearTimeout(timeout)
     }
-  }, [charIndex, currentIndex])
+  }, [charIndex, currentIndex]) 
 
   return (
     <div className="min-w-[500px] text-center">
